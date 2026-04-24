@@ -1,0 +1,19 @@
+# Regression (7 modeles)
+python main.py --task regression --ml_method knn --knn_n_neighbors 30  # Meilleur score
+python main.py --task regression --ml_method svr
+python main.py --task regression --ml_method ridge
+python main.py --task regression --ml_method linear_reg
+python main.py --task regression --ml_method sgd
+python main.py --task regression --ml_method random_forest
+python main.py --task regression --ml_method gradient_boosting
+
+# Classification (6 modeles)
+python main.py --task classification --ml_method random_forest  # Meilleur score
+python main.py --task classification --ml_method knn --knn_n_neighbors 20
+python main.py --task classification --ml_method svm
+python main.py --task classification --ml_method log_reg
+python main.py --task classification --ml_method gnb
+python main.py --task classification --ml_method gradient_boosting
+
+# Clustering
+python main.py --task clustering --kmeans_k 3
