@@ -1,3 +1,12 @@
+## Contexte
+Bienvenue dans ce projet ! Le code d'exploration et l'analyse détaillée se trouvent principalement dans le **Notebook**. 
+
+Le point d'entrée principal du projet est le script `main.py`. Il est conçu pour être exécuté en ligne de commande et permet de lancer facilement les différents modèles disponibles.
+
+##Utilisation (Commandes Python)
+
+Pour exécuter les modèles, utilisez les commandes suivantes depuis la racine du projet :
+
 # Regression (7 modeles)
 python main.py --task regression --ml_method knn --knn_n_neighbors 30  # Meilleur score
 python main.py --task regression --ml_method svr
