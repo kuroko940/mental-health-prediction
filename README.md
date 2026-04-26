@@ -5,6 +5,19 @@ Bienvenue dans ce projet d'analyse de donnees sur la sante mentale. L'exploratio
 
 Le point d'entree principal du projet est le script `main.py`. Il est concu pour etre execute en ligne de commande et permet de lancer facilement les differents modeles d'apprentissage automatique disponibles. Les resultats detailles et les conclusions sont documentes dans `rapport_technique.pdf`.
 
+## 💾 Donnees (Datasets)
+Ce projet croise des donnees de sante mentale avec des indicateurs socio-economiques. 
+
+Les datasets socio-economiques (`master_socioeconomic_data_2020_2024.csv` et `state_socioeconomic_data.csv`) ont ete crees specifiquement pour ce projet et sont inclus directement dans le dossier `data/` de ce depot.
+
+Cependant, le dataset principal sur la sante mentale provenant de Kaggle n'est pas inclus pour des raisons de taille.
+
+**Pour executer le code localement :**
+1. Telechargez le dataset `Indicators_of_Anxiety_or_Depression.csv` depuis Kaggle : [https://www.kaggle.com/datasets/melissamonfared/indicators-of-anxiety-or-depression]
+2. Placez ce fichier telecharge dans le dossier `data/` de ce projet (a cote des deux autres fichiers deja presents).
+
+Le script `main.py` et le notebook liront alors l'ensemble des donnees correctement.
+
 ## Utilisation
 
 Pour executer les modeles, copiez et collez les commandes suivantes depuis la racine du projet dans votre terminal :
