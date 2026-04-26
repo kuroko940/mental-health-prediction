@@ -1,3 +1,2 @@
-# Ignorer le dossier de donnees et les fichiers CSV
-data/
-*.csv
+# Ignorer uniquement le gros dataset Kaggle
+Indicators_of_Anxiety_or_Depression.csv
