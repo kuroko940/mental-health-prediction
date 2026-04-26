@@ -1,0 +1,3 @@
+# Ignorer le dossier de donnees et les fichiers CSV
+data/
+*.csv
